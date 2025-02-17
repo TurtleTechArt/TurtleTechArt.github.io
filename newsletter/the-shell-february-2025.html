@@ -1,0 +1,1098 @@
+<!--
+* This email was built using Tabular.
+* For more information, visit https://tabular.email
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
+<head>
+<title>The Shell</title>
+<link rel="icon" type="image/x-icon" href="../assets/Main/TurtleTechArtLogo.png" />
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!--[if !mso]>-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--<![endif]-->
+<meta name="x-apple-disable-message-reformatting" content="" />
+<meta content="target-densitydpi=device-dpi" name="viewport" />
+<meta content="true" name="HandheldFriendly" />
+<meta content="width=device-width" name="viewport" />
+<meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no" />
+<!-- Ref Other Files -->
+<link href="../css/styles.css" rel="stylesheet" />
+<link href="../newsletter/css/newsletter-styles.css" rel="stylesheet" />
+<style type="text/css">
+table {
+border-collapse: separate;
+table-layout: fixed;
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt
+}
+table td {
+border-collapse: collapse
+}
+.ExternalClass {
+width: 100%
+}
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+line-height: 100%
+}
+body, a, li, p, h1, h2, h3 {
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+body {
+    background-color: #ffffff; /* Dark purple background */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    margin-top: 70px;
+    font-family: Arial, sans-serif;
+}
+html {
+-webkit-text-size-adjust: none !important
+}
+body, #innerTable {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale
+}
+#innerTable img+div {
+display: none;
+display: none !important
+}
+img {
+Margin: 0;
+padding: 0;
+-ms-interpolation-mode: bicubic
+}
+h1, h2, h3, p, a {
+line-height: inherit;
+overflow-wrap: normal;
+white-space: normal;
+word-break: break-word
+}
+a {
+text-decoration: none
+}
+h1, h2, h3, p {
+min-width: 100%!important;
+width: 100%!important;
+max-width: 100%!important;
+display: inline-block!important;
+border: 0;
+padding: 0;
+margin: 0
+}
+a[x-apple-data-detectors] {
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important
+}
+u + #body a {
+color: inherit;
+text-decoration: none;
+font-size: inherit;
+font-family: inherit;
+font-weight: inherit;
+line-height: inherit;
+}
+a[href^="mailto"],
+a[href^="tel"],
+a[href^="sms"] {
+color: inherit;
+text-decoration: none
+}
+</style>
+<style type="text/css">
+@media (min-width: 481px) {
+.hd { display: none!important }
+}
+</style>
+<style type="text/css">
+@media (max-width: 480px) {
+.hm { display: none!important }
+}
+</style>
+<style type="text/css">
+@media (max-width: 480px) {
+.t295,.t304,.t312{vertical-align:top!important}.t643{padding:5px 0px!important}.t645{width:480px!important}.t17,.t484,.t526,.t638{mso-line-height-alt:20px!important;line-height:20px!important}.t138,.t20,.t222,.t279,.t3,.t30,.t482,.t487,.t529,.t641,.t86{width:460px!important}.t25{width:400px!important}.t140,.t22,.t88{font-size:20px!important}.t136,.t176,.t220,.t277,.t480,.t527,.t639,.t80,.t84{padding-left:15px!important;padding-right:15px!important}.t169,.t203,.t476,.t599,.t72{padding-right:0!important}.t117,.t134,.t143,.t218,.t227,.t267,.t275,.t284,.t467,.t473,.t478,.t502,.t524,.t536,.t592,.t636,.t82,.t91{width:430px!important}.t106,.t130,.t156,.t163,.t190,.t197,.t240,.t247,.t271,.t42,.t469,.t50,.t57,.t66{font-size:14px!important}.t169,.t203,.t476,.t72{padding-left:0!important}.t319,.t355,.t391,.t427,.t463{width:428px!important}.t110,.t260,.t313,.t348,.t384,.t420,.t456,.t585{text-align:left!important}.t148,.t182,.t232,.t293,.t302,.t327,.t337,.t363,.t373,.t399,.t409,.t435,.t445,.t551,.t567,.t600,.t606,.t611,.t96{display:revert!important}.t13,.t14,.t173,.t207,.t602,.t76{display:block!important}.t295{width:459px!important}.t290{width:140.3px!important}.t304{width:429px!important}.t299{width:129.32px!important}.t312{width:247px!important}.t308{width:66.38px!important}.t329,.t365,.t401,.t437{vertical-align:middle!important;width:425px!important}.t324,.t360,.t396,.t432{width:128.27px!important}.t339,.t375,.t411,.t447{vertical-align:middle!important;width:511px!important}.t334,.t370,.t406,.t442{width:159.82px!important}.t347,.t383,.t419,.t455{vertical-align:middle!important;width:196px!important}.t343,.t379,.t415,.t451{width:47.91px!important}.t553,.t569{vertical-align:top!important;width:610px!important}.t541,.t548,.t557,.t564,.t573,.t580{width:96.67px!important}.t544,.t560,.t576{font-size:10px!important;mso-text-raise:4px!important}.t109,.t259,.t584{vertical-align:top!important;width:600px!important}.t12,.t603,.t608,.t613,.t617,.t624{vertical-align:middle!important}.t631{width:350px!important}.t625,.t628{text-align:center!important}.t602{mso-line-height-alt:15px!important;line-height:15px!important;font-size:1px!important}.t603{width:210px!important}.t598{Margin-left:auto!important}.t624{width:800px!important}.t622{padding-bottom:11px!important}.t618{text-align:right!important}.t608,.t613{width:39px!important}.t617{width:29px!important}.t178,.t213,.t492,.t498,.t507,.t513{width:390px!important}.t13{text-align:center!important}.t12{display:inline-block!important;width:100%!important;max-width:490px!important}.t172,.t206,.t75{display:block!important;text-align:left!important}.t150,.t171,.t184,.t205,.t74{display:inline-block!important;width:100%!important;vertical-align:top!important}.t150,.t184{max-width:610px!important}.t171,.t205,.t74{max-width:600px!important}.t154,.t160,.t167,.t188,.t194,.t201,.t35,.t46,.t54,.t61,.t70{width:600px!important}.t151,.t185,.t235,.t32{font-size:18px!important}.t98{vertical-align:top!important;width:387px!important}.t234{vertical-align:top!important;width:433px!important}.t238,.t244,.t251,.t255{width:182.87px!important}
+}
+</style>
+
+<!--[if !mso]>-->
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Inter+Tight:wght@300;400;700&amp;family=Lato:wght@400;700&amp;display=swap" rel="stylesheet" type="text/css" />
+<!--<![endif]-->
+<!--[if mso]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+
+</head>
+
+<body id="body" class="t649" style="min-width:100%;Margin:0px;padding:0px;background-color:#F0F0F0;"><div class="t648" style="background-color:#F0F0F0;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td class="t647" style="font-size:0;line-height:0;mso-line-height-rule:exactly;background-color:#F0F0F0;" valign="top" align="center">
+<!--[if mso]>
+<v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false">
+<v:fill color="#F0F0F0"/>
+</v:background>
+<![endif]-->
+
+<nav class="navbar">
+    <div class="nav-left">
+        <img src="../assets/Main/TurtleTechArtLogo.png" alt="Logo" class="logo">
+        <h1 class="site-title">Turtle Tech Art</h1>
+    </div>
+    <div class="nav-right">
+        <!-- <a href="mailto:your@email.com" class="nav-icon">
+            <img src="path-to-email-icon.png" alt="Email">
+        </a> -->
+        <a href="portfolio" class="nav-link">Portfolio</a>
+        <a href="resume" class="nav-link">Resume</a>
+    </div>
+</nav>
+
+<div class="newsletter-container">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" id="innerTable"><tr><td align="center">
+        <table class="t646" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="690" class="t645" style="background-color:#A9BAB3;width:690px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t645" style="background-color:#A9BAB3;width:690px;">
+        <!--<![endif]-->
+        <table class="t644" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t643" style="padding:30px 30px 30px 30px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t4" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="600" class="t3" style="overflow:hidden;width:600px;border-radius:10px 10px 10px 10px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t3" style="overflow:hidden;width:600px;border-radius:10px 10px 10px 10px;">
+        <!--<![endif]-->
+        <table class="t2" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t1"><div style="font-size:0px;"><img class="t0" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="600" height="163.59375" alt="" src="../assets/newsletter/TheShell_Banner.png"/></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t17" style="mso-line-height-rule:exactly;mso-line-height-alt:26px;line-height:26px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t21" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="600" class="t20" style="background-color:#5D7380;overflow:hidden;width:600px;border-radius:20px 20px 20px 20px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t20" style="background-color:#5D7380;overflow:hidden;width:600px;border-radius:20px 20px 20px 20px;">
+        <!--<![endif]-->
+        <table class="t19" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t18" style="padding:9px 20px 8px 20px;"><div class="t16" style="width:100%;text-align:center;"><div class="t15" style="display:inline-block;"><table class="t14" role="presentation" cellpadding="0" cellspacing="0" align="center" valign="middle">
+        <tr class="t13"><td></td><td class="t12" width="490" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t11" style="width:100%;"><tr><td class="t10"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t9" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="285" class="t8" style="overflow:hidden;width:285px;border-radius:10px 10px 10px 10px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t8" style="overflow:hidden;width:285px;border-radius:10px 10px 10px 10px;">
+        <!--<![endif]-->
+        <table class="t7" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t6"><p class="t5" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:24px;font-weight:300;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#FFFFFF;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">Turtle Tech Art • February 2025</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t484" style="mso-line-height-rule:exactly;mso-line-height-alt:26px;line-height:26px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t488" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="630" class="t487" style="overflow:hidden;width:630px;border-radius:20px 20px 20px 20px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t487" style="overflow:hidden;width:630px;border-radius:20px 20px 20px 20px;">
+        <!--<![endif]-->
+        <table class="t486" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t485"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t31" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="630" class="t30" style="background-color:#FFFFFF;width:630px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t30" style="background-color:#FFFFFF;width:630px;">
+        <!--<![endif]-->
+        <table class="t29" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t28" style="padding:30px 30px 15px 30px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t26" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t25" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t25" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t24" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t23"><h2 class="t22" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:28px;font-weight:700;font-style:normal;font-size:22px;text-decoration:none;text-transform:none;letter-spacing:-0.6px;direction:ltr;color:#333333;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">Welcome to the first edition of The Shell!</h2></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t27" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td align="center">
+        <table id="news" class="t87" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="630" class="t86" style="background-color:#FFFFFF;width:630px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t86" style="background-color:#FFFFFF;width:630px;">
+        <!--<![endif]-->
+        <table class="t85" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t84" style="padding:10px 30px 22px 30px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td><div class="t79" style="mso-line-height-rule:exactly;mso-line-height-alt:6px;line-height:6px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t83" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t82" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t82" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t81" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t80"><div class="t78" style="width:100%;text-align:left;"><div class="t77" style="display:inline-block;"><table class="t76" role="presentation" cellpadding="0" cellspacing="0" align="left" valign="top">
+        <tr class="t75"><td></td><td class="t74" width="570" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t73" style="width:100%;"><tr><td class="t72" style="padding:0 20px 0 20px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t36" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t35" style="width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t35" style="width:530px;">
+        <!--<![endif]-->
+        <table class="t34" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t33"><h3 class="t32" style="margin:0;Margin:0;font-family:Lato,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:26px;font-weight:400;font-style:normal;font-size:20px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">The Turtle Tech Art Newsletter!</h3></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t43" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t47" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t46" style="width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t46" style="width:530px;">
+        <!--<![endif]-->
+        <table class="t45" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t44"><p class="t42" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">For the first ever edition of <span class="t38" style="margin:0;Margin:0;mso-line-height-rule:exactly;"><span class="t37" style="margin:0;Margin:0;font-style:italic;mso-line-height-rule:exactly;">The Shell</span></span>, we at Turtle Tech Art want to give an outline of <span class="t39" style="margin:0;Margin:0;font-weight:700;mso-line-height-rule:exactly;">who </span>we are, <span class="t40" style="margin:0;Margin:0;font-weight:700;mso-line-height-rule:exactly;">why </span>we’re starting this newsletter, and <span class="t41" style="margin:0;Margin:0;font-weight:700;mso-line-height-rule:exactly;">what </span>to expect:&nbsp;</p></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t51" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t55" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t54" style="width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t54" style="width:530px;">
+        <!--<![endif]-->
+        <table class="t53" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t52"><p class="t50" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;"><span class="t48" style="margin:0;Margin:0;font-weight:700;color:#226575;mso-line-height-rule:exactly;">- Who:</span> Turtle Tech Art was founded in late 2024 by Mikyle Mosquera and Endlessette Osborn as a community for all things tech art. The newsletter is written by Henry Foley. We’re all current and former students!<span class="t49" style="margin:0;Margin:0;font-weight:700;color:#226575;mso-line-height-rule:exactly;"></span></p></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t58" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t62" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t61" style="width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t61" style="width:530px;">
+        <!--<![endif]-->
+        <table class="t60" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t59"><p class="t57" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;"><span class="t56" style="margin:0;Margin:0;font-weight:700;color:#226575;mso-line-height-rule:exactly;">- Why:</span> We’re all passionate about this discipline and want to create a way to keep other TAs posted on happenings within the discipline. We hope you find this newsletter engaging and informative!</p></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t67" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t71" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t70" style="width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t70" style="width:530px;">
+        <!--<![endif]-->
+        <table class="t69" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t68"><p class="t66" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;"><span class="t63" style="margin:0;Margin:0;font-weight:700;color:#226575;mso-line-height-rule:exactly;">- What:</span> This newsletter will contain updates from within the TA community, including but not limited to: News, Tutorials, Recent Projects, Events, and Job Openings. You can expect a new edition of <span class="t65" style="margin:0;Margin:0;mso-line-height-rule:exactly;"><span class="t64" style="margin:0;Margin:0;font-style:italic;mso-line-height-rule:exactly;">The Shell</span></span> on a monthly schedule</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td align="center">
+        <table id="upcoming-events" class="t139" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="630" class="t138" style="background-color:#FFFFFF;width:630px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t138" style="background-color:#FFFFFF;width:630px;">
+        <!--<![endif]-->
+        <table class="t137" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t136" style="padding:22px 30px 22px 30px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t92" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t91" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t91" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t90" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t89"><h2 class="t88" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:28px;font-weight:700;font-style:normal;font-size:22px;text-decoration:none;text-transform:none;letter-spacing:-0.6px;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Upcoming Events</h2></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t93" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td><div class="t114" style="mso-line-height-rule:exactly;mso-line-height-alt:6px;line-height:6px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t118" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t117" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t117" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t116" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t115"><div class="t113" style="width:100%;text-align:left;"><div class="t112" style="display:inline-block;"><table class="t111" role="presentation" cellpadding="0" cellspacing="0" align="left" valign="top">
+        <tr class="t110"><td></td><td class="t98" width="226.09007" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t97" style="width:100%;"><tr><td class="t95"><div style="font-size:0px;"><img class="t94" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="216.09007164790177" height="216.640625" alt="" src="https://c5a3565c-c45d-4f47-b09b-305596fa7a8d.b-cdn.net/e/5b7128ce-5dfb-4d42-a82d-1f297111d6ee/f6392c98-3189-40fc-b21e-f884cfb5c2af.png"/></div></td><td class="t96" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t109" width="343.90993" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t108" style="width:100%;"><tr><td class="t107"><p class="t106" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Our 4th <span class="t100" style="margin:0;Margin:0;mso-line-height-rule:exactly;"><span class="t99" style="margin:0;Margin:0;font-weight:700;mso-line-height-rule:exactly;">Tech Art Meetup</span></span> will be happening Tuesday <span class="t101" style="margin:0;Margin:0;font-weight:700;mso-line-height-rule:exactly;">February 18th</span> <span class="t102" style="margin:0;Margin:0;font-weight:700;mso-line-height-rule:exactly;">@7PM PST</span>, located on Discord! <br/><br/>We host meetups every month where you get a chance to connect with other tech artists and learn about other tech art projects that people have been working on.<br/><br/>RSVP <a class="t105" href="https://discord.gg/9TQBYKPY8y" style="margin:0;Margin:0;font-weight:700;font-style:normal;text-decoration:none;direction:ltr;color:#0000FF;mso-line-height-rule:exactly;" target="_blank"><span class="t104" style="margin:0;Margin:0;mso-line-height-rule:exactly;"><span class="t103" style="margin:0;Margin:0;color:#226575;mso-line-height-rule:exactly;">Here</span></span></a></p></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t131" style="mso-line-height-rule:exactly;mso-line-height-alt:16px;line-height:16px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t135" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t134" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t134" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t133" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t132"><p class="t130" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;"><span class="t119" style="margin:0;Margin:0;font-weight:400;font-style:italic;mso-line-height-rule:exactly;">Want to stay updated on all our events?</span><span class="t120" style="margin:0;Margin:0;font-style:italic;mso-line-height-rule:exactly;"><br/></span><span class="t121" style="margin:0;Margin:0;font-weight:700;font-style:italic;mso-line-height-rule:exactly;"></span><span class="t122" style="margin:0;Margin:0;font-weight:400;font-style:normal;mso-line-height-rule:exactly;">Add the</span><span class="t128" style="margin:0;Margin:0;color:#51176E;mso-line-height-rule:exactly;"><span class="t123" style="margin:0;Margin:0;font-weight:400;font-style:normal;mso-line-height-rule:exactly;"> </span><a class="t126" href="https://calendar.google.com/calendar/u/5?cid=OGRhZGIwMzg0YWIyOWJkOTg3ZTI5YTQyZDk5NmZiMGMxZTU2YTc3NzQwYjkyNmY2MWVkMTRiMTExMGEzZmI3NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" style="margin:0;Margin:0;font-weight:400;font-style:normal;text-decoration:none;direction:ltr;color:#51176E;mso-line-height-rule:exactly;" target="_blank"><span class="t125" style="margin:0;Margin:0;mso-line-height-rule:exactly;"><span class="t124" style="margin:0;Margin:0;font-style:italic;text-decoration:underline;color:#226575;mso-line-height-rule:exactly;">Turtle Tech Art Calendar</span></span></a><span class="t127" style="margin:0;Margin:0;font-weight:400;font-style:normal;mso-line-height-rule:exactly;"> </span></span><span class="t129" style="margin:0;Margin:0;font-weight:400;font-style:normal;mso-line-height-rule:exactly;">to your Google Calendar!<br/></span></p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td align="center">
+        <table id="tutorials" class="t223" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="630" class="t222" style="background-color:#FFFFFF;width:630px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t222" style="background-color:#FFFFFF;width:630px;">
+        <!--<![endif]-->
+        <table class="t221" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t220" style="padding:21px 30px 22px 30px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t144" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t143" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t143" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t142" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t141"><h2 class="t140" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:28px;font-weight:700;font-style:normal;font-size:22px;text-decoration:none;text-transform:none;letter-spacing:-0.6px;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Tutorials</h2></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t145" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td><div class="t215" style="mso-line-height-rule:exactly;mso-line-height-alt:6px;line-height:6px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t219" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t218" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t218" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t217" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t216" style="padding:0 20px 0 20px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t179" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t178" style="width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t178" style="width:530px;">
+        <!--<![endif]-->
+        <table class="t177" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t176" style="padding:20px 0 20px 0;"><div class="t175" style="width:100%;text-align:left;"><div class="t174" style="display:inline-block;"><table class="t173" role="presentation" cellpadding="0" cellspacing="0" align="left" valign="top">
+        <tr class="t172"><td></td><td class="t150" width="270" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t149" style="width:100%;"><tr><td class="t147" style="overflow:hidden;border-radius:10px 10px 10px 10px;"><div style="font-size:0px;"><img class="t146" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="260" height="146.25" alt="" src="https://c5a3565c-c45d-4f47-b09b-305596fa7a8d.b-cdn.net/e/5b7128ce-5dfb-4d42-a82d-1f297111d6ee/ad1fba2d-7b6a-4810-8664-c70c26177db2.jpeg"/></div></td><td class="t148" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t171" width="260" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t170" style="width:100%;"><tr><td class="t169" style="padding:0px 0px 0px 0px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t155" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="220" class="t154" style="width:220px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t154" style="width:220px;">
+        <!--<![endif]-->
+        <table class="t153" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t152"><h3 class="t151" style="margin:0;Margin:0;font-family:Lato,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:26px;font-weight:400;font-style:normal;font-size:20px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Optimizing UE5</h3></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t157" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t161" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="220" class="t160" style="width:220px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t160" style="width:220px;">
+        <!--<![endif]-->
+        <table class="t159" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t158"><p class="t156" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">This talk from Unreal Fest Prague 2024 covers a wide range of scene optimizations and memory managing techniques.</p></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t164" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t168" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="220" class="t167" style="width:220px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t167" style="width:220px;">
+        <!--<![endif]-->
+        <table class="t166" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t165"><p class="t163" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#226575;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;"><a class="t162" href="https://www.youtube.com/watch?v=pijx_AYN_WY" style="margin:0;Margin:0;font-weight:700;font-style:normal;text-decoration:none;direction:ltr;color:#226575;mso-line-height-rule:exactly;" target="_blank">Link to tutorial</a></p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t210" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t214" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t213" style="width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t213" style="width:530px;">
+        <!--<![endif]-->
+        <table class="t212" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t211" style="padding:20px 0 20px 0;"><div class="t209" style="width:100%;text-align:left;"><div class="t208" style="display:inline-block;"><table class="t207" role="presentation" cellpadding="0" cellspacing="0" align="left" valign="top">
+        <tr class="t206"><td></td><td class="t184" width="270" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t183" style="width:100%;"><tr><td class="t181" style="overflow:hidden;border-radius:10px 10px 10px 10px;"><div style="font-size:0px;"><img class="t180" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="260" height="146.25" alt="" src="https://c5a3565c-c45d-4f47-b09b-305596fa7a8d.b-cdn.net/e/5b7128ce-5dfb-4d42-a82d-1f297111d6ee/384f1e5b-37c3-4bca-89d1-4bcfc73e5212.jpeg"/></div></td><td class="t182" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t205" width="260" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t204" style="width:100%;"><tr><td class="t203" style="padding:0px 0px 0px 0px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t189" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="220" class="t188" style="width:220px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t188" style="width:220px;">
+        <!--<![endif]-->
+        <table class="t187" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t186"><h3 class="t185" style="margin:0;Margin:0;font-family:Lato,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:26px;font-weight:400;font-style:normal;font-size:20px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Python in Houdini: Importing Satellite Data</h3></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t191" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t195" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="220" class="t194" style="width:220px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t194" style="width:220px;">
+        <!--<![endif]-->
+        <table class="t193" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t192"><p class="t190" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Niklas Rosenstein shows how to import, parse, and utilize CSV data in Houdini.</p></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t198" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t202" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="220" class="t201" style="width:220px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t201" style="width:220px;">
+        <!--<![endif]-->
+        <table class="t200" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t199"><p class="t197" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#226575;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;"><a class="t196" href="https://www.youtube.com/watch?v=pijx_AYN_WY" style="margin:0;Margin:0;font-weight:700;font-style:normal;text-decoration:none;direction:ltr;color:#226575;mso-line-height-rule:exactly;" target="_blank">Link to tutorial</a></p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td align="center">
+        <table id="community-spotlight" class="t280" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="630" class="t279" style="background-color:#FFFFFF;width:630px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t279" style="background-color:#FFFFFF;width:630px;">
+        <!--<![endif]-->
+        <table class="t278" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t277" style="padding:0px 0px 30px 30px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t228" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t227" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t227" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t226" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t225"><h2 class="t224" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:28px;font-weight:700;font-style:normal;font-size:22px;text-decoration:none;text-transform:none;letter-spacing:-0.6px;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Community Spotlight</h2></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t229" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td><div class="t264" style="mso-line-height-rule:exactly;mso-line-height-alt:6px;line-height:6px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t268" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t267" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t267" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t266" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t265" style="padding:20px 20px 20px 20px;"><div class="t263" style="width:100%;text-align:left;"><div class="t262" style="display:inline-block;"><table class="t261" role="presentation" cellpadding="0" cellspacing="0" align="left" valign="top">
+        <tr class="t260"><td></td><td class="t234" width="225.01466" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t233" style="width:100%;"><tr><td class="t231" style="overflow:hidden;border-radius:10px 10px 10px 10px;"><div style="font-size:0px;"><img class="t230" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="215.01466275659823" height="215" alt="" src="https://cdnb.artstation.com/p/assets/covers/images/084/464/073/smaller_square/seb-van-den-beemt-seb-van-den-beemt-sebvdb-billboardthumbnail01.jpg?1738431489"/></div></td><td class="t232" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t259" width="304.98534" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t258" style="width:100%;"><tr><td class="t257" style="padding:0 20px 0 20px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t256" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="264.9853372434018" class="t255" style="width:264.99px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t255" style="width:264.99px;">
+        <!--<![endif]-->
+        <table class="t254" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t253"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t239" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="264.9853372434018" class="t238" style="width:264.99px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t238" style="width:264.99px;">
+        <!--<![endif]-->
+        <table class="t237" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t236"><h3 class="t235" style="margin:0;Margin:0;font-family:Lato,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:26px;font-weight:400;font-style:normal;font-size:20px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Dynamic Billboards</h3></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t241" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t245" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="264.9853372434018" class="t244" style="width:264.99px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t244" style="width:264.99px;">
+        <!--<![endif]-->
+        <table class="t243" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t242"><p class="t240" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Seb van den Beemt‘s latest project is a toolkit allowing users to build and customize billboards for your scene. Users can procedurally create billboards using Houdini, edit their displays using Unreal’s toolkit, and render custom text using shaders.</p></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t248" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t252" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="264.9853372434018" class="t251" style="width:264.99px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t251" style="width:264.99px;">
+        <!--<![endif]-->
+        <table class="t250" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t249"><p class="t247" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#226575;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;"><a class="t246" href="https://www.artstation.com/sebvdb" style="margin:0;Margin:0;font-weight:700;font-style:normal;text-decoration:none;direction:ltr;color:#226575;mso-line-height-rule:exactly;" target="_blank">Link to project</a></p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t272" style="mso-line-height-rule:exactly;mso-line-height-alt:6px;line-height:6px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t276" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t275" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t275" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t274" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t273"><p class="t271" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:italic;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">Want to be featured? Submit your project <a class="t270" href="https://forms.gle/TWZYiLTjucXDPgD57" style="margin:0;Margin:0;font-weight:700;font-style:normal;text-decoration:none;direction:ltr;color:#0000FF;mso-line-height-rule:exactly;" target="_blank"><span class="t269" style="margin:0;Margin:0;color:#226575;mso-line-height-rule:exactly;">here</span></a>!</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td align="center">
+        <table id="job-postings" class="t483" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="630" class="t482" style="background-color:#FFFFFF;width:630px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t482" style="background-color:#FFFFFF;width:630px;">
+        <!--<![endif]-->
+        <table class="t481" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t480" style="padding:10px 30px 10px 30px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t285" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t284" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t284" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t283" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t282"><h2 class="t281" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:28px;font-weight:700;font-style:normal;font-size:22px;text-decoration:none;text-transform:none;letter-spacing:-0.6px;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Job Postings</h2></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t286" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td><div class="t475" style="mso-line-height-rule:exactly;mso-line-height-alt:6px;line-height:6px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t479" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t478" style="background-color:#FFFFFF;width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t478" style="background-color:#FFFFFF;width:570px;">
+        <!--<![endif]-->
+        <table class="t477" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t476" style="padding:20px 20px 20px 20px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t468" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t467" style="border:1px solid #757575;width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t467" style="border:1px solid #757575;width:530px;">
+        <!--<![endif]-->
+        <table class="t466" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t465" style="padding:5px 0 5px 0;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t320" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="528" class="t319" style="width:528px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t319" style="width:528px;">
+        <!--<![endif]-->
+        <table class="t318" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t317"><div class="t316" style="width:100%;text-align:left;"><div class="t315" style="display:inline-block;"><table class="t314" role="presentation" cellpadding="0" cellspacing="0" align="left" valign="top">
+        <tr class="t313"><td></td><td class="t295" width="199.58633" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t294" style="width:100%;"><tr><td class="t292" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t291" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="165.58633093525177" class="t290" style="width:165.59px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t290" style="width:165.59px;">
+        <!--<![endif]-->
+        <table class="t289" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t288"><p class="t287" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:700;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Company Title</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t293" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t304" width="238.8741" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t303" style="width:100%;"><tr><td class="t301" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t300" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="204.87410071942443" class="t299" style="width:204.87px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t299" style="width:204.87px;">
+        <!--<![endif]-->
+        <table class="t298" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t297"><p class="t296" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:700;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Role Title</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t302" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t312" width="89.53957" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t311" style="width:100%;"><tr><td class="t310" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t309" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="65.53956834532373" class="t308" style="width:65.54px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t308" style="width:65.54px;">
+        <!--<![endif]-->
+        <table class="t307" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t306"><p class="t305" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:700;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">Region</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t352" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t356" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="528" class="t355" style="width:528px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t355" style="width:528px;">
+        <!--<![endif]-->
+        <table class="t354" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t353"><div class="t351" style="width:100%;text-align:left;"><div class="t350" style="display:inline-block;"><table class="t349" role="presentation" cellpadding="0" cellspacing="0" align="left" valign="middle">
+        <tr class="t348"><td></td><td class="t329" width="199.58633" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t328" style="width:100%;"><tr><td class="t326" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t325" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="165.58633093525177" class="t324" style="width:165.59px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t324" style="width:165.59px;">
+        <!--<![endif]-->
+        <table class="t323" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t322"><p class="t321" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">CD Projekt</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t327" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t339" width="238.8741" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t338" style="width:100%;"><tr><td class="t336" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t335" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="204.87410071942443" class="t334" style="width:204.87px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t334" style="width:204.87px;">
+        <!--<![endif]-->
+        <table class="t333" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t332"><p class="t331" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#226575;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;"><a class="t330" href="https://www.cdprojektred.com/en/jobs/744000040226845-lead-technical-artist" style="margin:0;Margin:0;font-weight:700;font-style:normal;text-decoration:none;direction:ltr;color:#226575;mso-line-height-rule:exactly;" target="_blank">Lead Technical Artist</a></p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t337" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t347" width="89.53957" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t346" style="width:100%;"><tr><td class="t345" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t344" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="65.53956834532373" class="t343" style="width:65.54px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t343" style="width:65.54px;">
+        <!--<![endif]-->
+        <table class="t342" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t341"><p class="t340" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">US</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t388" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t392" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="528" class="t391" style="width:528px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t391" style="width:528px;">
+        <!--<![endif]-->
+        <table class="t390" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t389"><div class="t387" style="width:100%;text-align:left;"><div class="t386" style="display:inline-block;"><table class="t385" role="presentation" cellpadding="0" cellspacing="0" align="left" valign="middle">
+        <tr class="t384"><td></td><td class="t365" width="199.58633" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t364" style="width:100%;"><tr><td class="t362" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t361" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="165.58633093525177" class="t360" style="width:165.59px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t360" style="width:165.59px;">
+        <!--<![endif]-->
+        <table class="t359" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t358"><p class="t357" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Larian Studios</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t363" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t375" width="238.8741" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t374" style="width:100%;"><tr><td class="t372" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t371" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="204.87410071942443" class="t370" style="width:204.87px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t370" style="width:204.87px;">
+        <!--<![endif]-->
+        <table class="t369" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t368"><p class="t367" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#226575;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;"><a class="t366" href="https://jobs.lever.co/larian/d1a2322b-9d3a-4f13-b6fd-7ebd03676b32/apply" style="margin:0;Margin:0;font-weight:700;font-style:normal;text-decoration:none;direction:ltr;color:#226575;mso-line-height-rule:exactly;" target="_blank">Senior Technical Artist - Pipeline</a></p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t373" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t383" width="89.53957" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t382" style="width:100%;"><tr><td class="t381" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t380" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="65.53956834532373" class="t379" style="width:65.54px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t379" style="width:65.54px;">
+        <!--<![endif]-->
+        <table class="t378" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t377"><p class="t376" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">EU</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t424" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t428" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="528" class="t427" style="width:528px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t427" style="width:528px;">
+        <!--<![endif]-->
+        <table class="t426" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t425"><div class="t423" style="width:100%;text-align:left;"><div class="t422" style="display:inline-block;"><table class="t421" role="presentation" cellpadding="0" cellspacing="0" align="left" valign="middle">
+        <tr class="t420"><td></td><td class="t401" width="199.58633" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t400" style="width:100%;"><tr><td class="t398" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t397" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="165.58633093525177" class="t396" style="width:165.59px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t396" style="width:165.59px;">
+        <!--<![endif]-->
+        <table class="t395" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t394"><p class="t393" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Ubisoft</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t399" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t411" width="238.8741" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t410" style="width:100%;"><tr><td class="t408" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t407" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="204.87410071942443" class="t406" style="width:204.87px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t406" style="width:204.87px;">
+        <!--<![endif]-->
+        <table class="t405" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t404"><p class="t403" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#226575;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;"><a class="t402" href="https://jobs.smartrecruiters.com/Ubisoft2/744000041187925-technical-artist-senior-mid-aaa-the-division-resurgence-w-m-nb-" style="margin:0;Margin:0;font-weight:700;font-style:normal;text-decoration:none;direction:ltr;color:#226575;mso-line-height-rule:exactly;" target="_blank">[The Division Resurgence] Technical Artist</a></p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t409" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t419" width="89.53957" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t418" style="width:100%;"><tr><td class="t417" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t416" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="65.53956834532373" class="t415" style="width:65.54px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t415" style="width:65.54px;">
+        <!--<![endif]-->
+        <table class="t414" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t413"><p class="t412" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">EU</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t460" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t464" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="528" class="t463" style="width:528px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t463" style="width:528px;">
+        <!--<![endif]-->
+        <table class="t462" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t461"><div class="t459" style="width:100%;text-align:left;"><div class="t458" style="display:inline-block;"><table class="t457" role="presentation" cellpadding="0" cellspacing="0" align="left" valign="middle">
+        <tr class="t456"><td></td><td class="t437" width="199.58633" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t436" style="width:100%;"><tr><td class="t434" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t433" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="165.58633093525177" class="t432" style="width:165.59px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t432" style="width:165.59px;">
+        <!--<![endif]-->
+        <table class="t431" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t430"><p class="t429" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Firaxis</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t435" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t447" width="238.8741" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t446" style="width:100%;"><tr><td class="t444" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t443" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="204.87410071942443" class="t442" style="width:204.87px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t442" style="width:204.87px;">
+        <!--<![endif]-->
+        <table class="t441" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t440"><p class="t439" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#226575;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;"><a class="t438" href="https://boards.greenhouse.io/firaxis/jobs/6297885003" style="margin:0;Margin:0;font-weight:700;font-style:normal;text-decoration:none;direction:ltr;color:#226575;mso-line-height-rule:exactly;" target="_blank">Character Technical Artist</a></p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t445" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t455" width="89.53957" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t454" style="width:100%;"><tr><td class="t453" style="padding:8px 12px 8px 12px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t452" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="65.53956834532373" class="t451" style="width:65.54px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t451" style="width:65.54px;">
+        <!--<![endif]-->
+        <table class="t450" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t449"><p class="t448" style="margin:0;Margin:0;font-family:Inter Tight,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">US</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t470" style="mso-line-height-rule:exactly;mso-line-height-alt:30px;line-height:30px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t474" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t473" style="width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t473" style="width:530px;">
+        <!--<![endif]-->
+        <table class="t472" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t471"><p class="t469" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:italic;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">Jobs sourced from gamejobs.co</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t526" style="mso-line-height-rule:exactly;mso-line-height-alt:26px;line-height:26px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t530" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="630" class="t529" style="background-color:#FFFFFF;overflow:hidden;width:630px;border-radius:20px 20px 20px 20px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t529" style="background-color:#FFFFFF;overflow:hidden;width:630px;border-radius:20px 20px 20px 20px;">
+        <!--<![endif]-->
+        <table class="t528" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t527" style="padding:22px 30px 22px 30px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t503" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t502" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t502" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t501" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t500" style="padding:20px 20px 20px 20px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t493" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t492" style="width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t492" style="width:530px;">
+        <!--<![endif]-->
+        <table class="t491" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t490"><h3 class="t489" style="margin:0;Margin:0;font-family:Lato,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:26px;font-weight:400;font-style:normal;font-size:20px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">Feedback &amp; Suggestions</h3></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t495" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t499" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t498" style="width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t498" style="width:530px;">
+        <!--<![endif]-->
+        <table class="t497" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t496"><p class="t494" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">Get in touch and share your feedback, suggestions, or ideas by filling out this form. Contributors welcome!</p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t521" style="mso-line-height-rule:exactly;mso-line-height-alt:6px;line-height:6px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t525" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t524" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t524" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t523" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t522" style="padding:20px 20px 20px 20px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t508" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t507" style="width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t507" style="width:530px;">
+        <!--<![endif]-->
+        <table class="t506" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t505"><h3 class="t504" style="margin:0;Margin:0;font-family:Lato,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:26px;font-weight:400;font-style:normal;font-size:20px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">Join us!</h3></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t510" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t514" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="530" class="t513" style="width:530px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t513" style="width:530px;">
+        <!--<![endif]-->
+        <table class="t512" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t511"><p class="t509" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#666666;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">Join us on Discord for virtual tech art meetups, tech art jams, and a supportive environment where you can share your tech art knowledge and learn something new!</p></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t516" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t520" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="67" class="t519" style="width:67px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t519" style="width:67px;">
+        <!--<![endif]-->
+        <table class="t518" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t517"><a href="https://discord.gg/DqHV7Ntg" style="font-size:0px;" target="_blank"><img class="t515" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="67" height="67" alt="" src="https://c5a3565c-c45d-4f47-b09b-305596fa7a8d.b-cdn.net/e/5b7128ce-5dfb-4d42-a82d-1f297111d6ee/9b7d5a44-3bfa-486b-b7a4-d22fee8ef5e2.png"/></a></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t638" style="mso-line-height-rule:exactly;mso-line-height-alt:26px;line-height:26px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t642" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="630" class="t641" style="background-color:#FFFFFF;overflow:hidden;width:630px;border-radius:20px 20px 20px 20px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t641" style="background-color:#FFFFFF;overflow:hidden;width:630px;border-radius:20px 20px 20px 20px;">
+        <!--<![endif]-->
+        <table class="t640" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t639" style="padding:22px 30px 22px 30px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t537" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t536" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t536" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t535" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t534"><h3 class="t533" style="margin:0;Margin:0;font-family:Lato,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:26px;font-weight:400;font-style:normal;font-size:20px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;"><span class="t531" style="margin:0;Margin:0;font-weight:700;mso-line-height-rule:exactly;">Thanks for reading!</span><br/><span class="t532" style="margin:0;Margin:0;font-style:italic;font-size:15px;mso-line-height-rule:exactly;"> – The Turtle Tech Art Team</span></h3></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t589" style="mso-line-height-rule:exactly;mso-line-height-alt:6px;line-height:6px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t593" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t592" style="width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t592" style="width:570px;">
+        <!--<![endif]-->
+        <table class="t591" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t590" style="padding:20px 0 20px 0;"><div class="t588" style="width:100%;text-align:left;"><div class="t587" style="display:inline-block;"><table class="t586" role="presentation" cellpadding="0" cellspacing="0" align="left" valign="top">
+        <tr class="t585"><td></td><td class="t553" width="193.33333" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t552" style="width:100%;"><tr><td class="t550" style="padding:20px 20px 20px 20px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t542" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="143.33333333333334" class="t541" style="overflow:hidden;width:143.33px;border-radius:100px 100px 100px 100px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t541" style="overflow:hidden;width:143.33px;border-radius:100px 100px 100px 100px;">
+        <!--<![endif]-->
+        <table class="t540" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t539"><div style="font-size:0px;"><img class="t538" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="143.33333333333334" height="143.328125" alt="" src="https://c5a3565c-c45d-4f47-b09b-305596fa7a8d.b-cdn.net/e/5b7128ce-5dfb-4d42-a82d-1f297111d6ee/15b5e778-157a-40ee-ad69-90b4942c3d47.jpeg"/></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t545" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t549" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="143.33333333333334" class="t548" style="width:143.33px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t548" style="width:143.33px;">
+        <!--<![endif]-->
+        <table class="t547" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t546"><p class="t544" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#226575;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;"><a class="t543" href="https://getmikyled.github.io/" style="margin:0;Margin:0;font-weight:700;font-style:normal;text-decoration:none;direction:ltr;color:#226575;mso-line-height-rule:exactly;" target="_blank">Mikyle Mosquera</a></p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t551" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t569" width="193.33333" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t568" style="width:100%;"><tr><td class="t566" style="padding:20px 20px 20px 20px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t558" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="143.33333333333334" class="t557" style="overflow:hidden;width:143.33px;border-radius:100px 100px 100px 100px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t557" style="overflow:hidden;width:143.33px;border-radius:100px 100px 100px 100px;">
+        <!--<![endif]-->
+        <table class="t556" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t555"><div style="font-size:0px;"><img class="t554" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="143.33333333333334" height="143.328125" alt="" src="https://c5a3565c-c45d-4f47-b09b-305596fa7a8d.b-cdn.net/e/5b7128ce-5dfb-4d42-a82d-1f297111d6ee/a97f9a35-81ed-4581-a1ff-441b290ff479.png"/></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t561" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t565" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="143.33333333333334" class="t564" style="width:143.33px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t564" style="width:143.33px;">
+        <!--<![endif]-->
+        <table class="t563" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t562"><p class="t560" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#226575;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;"><a class="t559" href="https://endlessette.com/#resume" style="margin:0;Margin:0;font-weight:700;font-style:normal;text-decoration:none;direction:ltr;color:#226575;mso-line-height-rule:exactly;" target="_blank">Endlessette Osborn</a></p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t567" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t584" width="183.33333" valign="top">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t583" style="width:100%;"><tr><td class="t582" style="padding:20px 20px 20px 20px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t574" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="143.33333333333334" class="t573" style="overflow:hidden;width:143.33px;border-radius:100px 100px 100px 100px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t573" style="overflow:hidden;width:143.33px;border-radius:100px 100px 100px 100px;">
+        <!--<![endif]-->
+        <table class="t572" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t571"><div style="font-size:0px;"><img class="t570" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="143.33333333333334" height="143.328125" alt="" src="https://c5a3565c-c45d-4f47-b09b-305596fa7a8d.b-cdn.net/e/5b7128ce-5dfb-4d42-a82d-1f297111d6ee/f5aff9e3-ec44-419b-b193-17e03b9a784f.jpeg"/></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t577" style="mso-line-height-rule:exactly;mso-line-height-alt:10px;line-height:10px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t581" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="143.33333333333334" class="t580" style="width:143.33px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t580" style="width:143.33px;">
+        <!--<![endif]-->
+        <table class="t579" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t578"><p class="t576" style="margin:0;Margin:0;font-family:IBM Plex Sans,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:22px;font-weight:400;font-style:normal;font-size:14px;text-decoration:none;text-transform:none;direction:ltr;color:#226575;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;"><a class="t575" href="https://www.henryfoley.com/" style="margin:0;Margin:0;font-weight:700;font-style:normal;text-decoration:none;direction:ltr;color:#226575;mso-line-height-rule:exactly;" target="_blank">Henry Foley</a></p></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr><tr><td><div class="t633" style="mso-line-height-rule:exactly;mso-line-height-alt:6px;line-height:6px;font-size:1px;display:block;">&nbsp;&nbsp;</div></td></tr><tr><td align="center">
+        <table class="t637" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="570" class="t636" style="background-color:#FFFFFF;width:570px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t636" style="background-color:#FFFFFF;width:570px;">
+        <!--<![endif]-->
+        <table class="t635" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t634" style="padding:20px 40px 20px 40px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="center">
+        <table class="t632" role="presentation" cellpadding="0" cellspacing="0" style="Margin-left:auto;Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="490" class="t631" style="width:490px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t631" style="width:490px;">
+        <!--<![endif]-->
+        <table class="t630" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t629" style="padding:0 0 15px 0;"><div class="t628" style="width:100%;text-align:left;"><div class="t627" style="display:inline-block;"><table class="t626" role="presentation" cellpadding="0" cellspacing="0" align="left" valign="middle">
+        <tr class="t625"><td></td><td class="t603" width="106" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t601" style="width:100%;"><tr><td class="t599" style="padding:0 15px 0 0;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100% !important;"><tr><td align="left">
+        <table class="t598" role="presentation" cellpadding="0" cellspacing="0" style="Margin-right:auto;"><tr>
+        <!--[if mso]>
+        <td width="55" class="t597" style="width:55px;">
+        <![endif]-->
+        <!--[if !mso]>-->
+        <td class="t597" style="width:55px;">
+        <!--<![endif]-->
+        <table class="t596" role="presentation" cellpadding="0" cellspacing="0" width="100%" style="width:100%;"><tr><td class="t595"><div style="font-size:0px;"><img class="t594" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="55" height="35.78125" alt="" src="https://c5a3565c-c45d-4f47-b09b-305596fa7a8d.b-cdn.net/e/5b7128ce-5dfb-4d42-a82d-1f297111d6ee/81fce612-8990-424c-83db-e57353bdbb15.png"/></div></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td><td class="t600" style="width:10px;" width="10"></td></tr></table>
+        <div class="t602" style="mso-line-height-rule:exactly;mso-line-height-alt:inherit;line-height:inherit;">&nbsp;&nbsp;</div>
+        </td><td class="t624" width="384" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t623" style="width:100%;"><tr><td class="t622" style="padding:10px 0 10px 0;"><div class="t621" style="width:100%;text-align:right;"><div class="t620" style="display:inline-block;"><table class="t619" role="presentation" cellpadding="0" cellspacing="0" align="right" valign="middle">
+        <tr class="t618"><td></td><td class="t608" width="39" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t607" style="width:100%;"><tr><td class="t605"><a href="mailto:hello@turtletech.art" style="font-size:0px;" target="_blank"><img class="t604" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="29" height="29" alt="" src="https://c5a3565c-c45d-4f47-b09b-305596fa7a8d.b-cdn.net/e/5b7128ce-5dfb-4d42-a82d-1f297111d6ee/e047c40e-7ae9-45cd-888b-146784741fd0.png"/></a></td><td class="t606" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t613" width="39" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t612" style="width:100%;"><tr><td class="t610"><a href="https://www.linkedin.com/company/turtle-tech-art/" style="font-size:0px;" target="_blank"><img class="t609" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="29" height="29" alt="" src="https://c5a3565c-c45d-4f47-b09b-305596fa7a8d.b-cdn.net/e/5b7128ce-5dfb-4d42-a82d-1f297111d6ee/811f42e1-06e7-4d9c-b12e-c986958848f1.png"/></a></td><td class="t611" style="width:10px;" width="10"></td></tr></table>
+        </td><td class="t617" width="29" valign="middle">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="t616" style="width:100%;"><tr><td class="t615"><a href="https://discord.gg/9TQBYKPY8y" style="font-size:0px;" target="_blank"><img class="t614" style="display:block;border:0;height:auto;width:100%;Margin:0;max-width:100%;" width="29" height="29" alt="" src="https://c5a3565c-c45d-4f47-b09b-305596fa7a8d.b-cdn.net/e/5b7128ce-5dfb-4d42-a82d-1f297111d6ee/2bb23897-1aa7-4202-9d63-e07003824b69.png"/></a></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td>
+        <td></td></tr>
+        </table></div></div></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table>
+        </td></tr></table>
+        </td></tr></table></td></tr></table></div><div class="gmail-fix" style="display: none; white-space: nowrap; font: 15px courier; line-height: 0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div></body>
+        </html>
+</div>

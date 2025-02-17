@@ -1,0 +1,168 @@
+/* Base styles */
+body {
+    background-color: #ffffff; /* Dark purple background */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    margin-top: 70px;
+    font-family: Arial, sans-serif;
+}
+
+.newsletter-container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #C0D1CF; /* Slightly lighter purple */
+    margin-top: 70px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Header section */
+.header-image {
+    width: 100%;
+    background-color: white;
+    padding: 0px;
+}
+
+.header-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Section styles */
+.section {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 25px;
+}
+
+/* Meta information bar */
+.meta-info {
+
+    background-color: #3F5261;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Content layouts */
+.content-row {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.content-image {
+    flex: 1;
+    min-width: 200px;
+}
+
+.content-image img {
+    width: 300px;
+    height: auto;
+}
+
+.content-text {
+    flex: 2;
+}
+
+/* Typography */
+h1 {
+    color: #4A2B69;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4A2B69;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.highlight-purple {
+    color: #4A2B69;
+    font-weight: bold;
+}
+
+.highlight-blue {
+    color: #3E8EDE;
+    font-weight: bold;
+}
+
+/* Link styles */
+.tutorial-link {
+    color: #3E8EDE;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tutorial-link:hover {
+    text-decoration: underline;
+}
+
+/* Team section styles */
+.team-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    color: #2D6A76; /* Teal color for names */
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Social links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.social-links img {
+    width: 32px;
+    height: 32px;
+}
+
+/* Feedback section */
+.feedback-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.feedback-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.discord-icon {
+    width: 60px;
+    height: 60px;
+    margin: 20px 0;
+}
