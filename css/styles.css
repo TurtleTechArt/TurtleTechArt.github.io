@@ -3,6 +3,8 @@ body {
     margin-top: 70px;
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scroll */
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -96,18 +98,23 @@ main {
     color: white;
     min-height: 100vh;
     margin-top: 1rem;  /* You can adjust this value as needed */
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .hero {
     padding: 4rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .hero-content {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    width: 100%;
     justify-content: space-between;
-    align-items: flex-start;
+    box-sizing: border-box;
     padding: 4rem 2rem;
     gap: 2rem;
 }
@@ -117,9 +124,10 @@ main {
 }
 
 .hero-logo {
-    width: 500px;
+    width: 75%;
     height: auto;
     margin-bottom: 1rem;
+    display: block;
 }
 
 .hero h1 {
